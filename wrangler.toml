@@ -1,9 +1,9 @@
 name = "sharex-r2-cloudflare-workers"
 type = "javascript"
-account_id = "522ed7942a6ec29727e101623a48ea76"
+account_id = "7c7d5b0a9ac4491c1e6e5dc8ad142645"
 workers_dev = true
-route = "r2-sharex.jross.me/*"
-zone_id = "487fd5cbd30793ca0fe54b33e538825a"
+route = "r2-sharex.j3fftw.dev/*"
+zone_id = "9465114431b9a02d21bfb8a15dff248a"
 compatibility_date = "2022-04-22"
 
 [build]
