@@ -5,13 +5,10 @@ workers_dev = true
 route = "r2-sharex.j3fftw.dev/*"
 zone_id = "9465114431b9a02d21bfb8a15dff248a"
 compatibility_date = "2022-04-22"
+main = "./dist/index.mjs"
 
 [build]
 command = "npm run build"
-
-[build.upload]
-format = "modules"
-main = "./index.mjs"
 
 [[r2_buckets]]
 bucket_name = "sharex-files"
